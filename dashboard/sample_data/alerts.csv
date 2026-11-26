@@ -1,0 +1,8 @@
+id,device_id,alert_type,value,threshold,event_ts,detected_ts,message
+1,mote12,temp_high,60.88,35.0,2004-02-28 12:35:51.347255622,2004-02-28 12:35:51.805747223,Sensor 12 read 60.9°C (limit 35°C)
+2,mote12,temp_jump,36.26,8.0,2004-02-28 12:35:51.347255622,2004-02-28 12:35:51.805747223,Sensor 12 temperature jumped +36.3°C in one minute
+3,mote7,dead_sensor,120.0,120.0,2004-02-28 12:49:52.000000000,2004-02-28 12:51:53.000000000,Sensor 7 stopped reporting for 2 minutes
+4,mote21,low_battery,2.29,2.3,2004-02-28 13:20:17.184835555,2004-02-28 13:20:18.369041766,"Sensor 21 battery at 2.29 V (limit 2.3 V), replace soon"
+5,mote33,temp_jump,8.82,8.0,2004-02-28 13:35:24.831318344,2004-02-28 13:35:25.942844787,Sensor 33 temperature jumped +8.8°C in one minute
+6,mote44,temp_high,49.59,35.0,2004-02-28 13:40:07.619559834,2004-02-28 13:40:08.953978118,Sensor 44 read 49.6°C (limit 35°C)
+7,mote44,temp_jump,26.7,8.0,2004-02-28 13:40:07.619559834,2004-02-28 13:40:08.953978118,Sensor 44 temperature jumped +26.7°C in one minute
