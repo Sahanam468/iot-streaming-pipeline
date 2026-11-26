@@ -1,4 +1,4 @@
-Real-Time Environmental Monitoring and Fault Detection
+# Real-Time Environmental Monitoring and Fault Detection
 
 Sensors publish readings over MQTT, Kafka buffers them, Flink detects faults in seconds (high temperature, sudden jumps, low battery, silent sensors), and a Streamlit dashboard shows the results. Dataset: Intel Berkeley Research Lab.
 
@@ -26,7 +26,8 @@ Run the ingestion side
 bash
 docker compose up -d
 pip install -r simulator/requirements.txt
-# put data.txt in ./data (from the dataset page above)
+
+#put data.txt in ./data (from the dataset page above)
 python simulator/replay.py --speed 500 --anomalies
 docker exec -it mosquitto mosquitto_sub -t 'sensors/#' -v
 Deploy the dashboard (free)
